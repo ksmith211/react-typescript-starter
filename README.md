@@ -27,7 +27,7 @@ You will also see any lint errors in the console.
 ### `./test.sh`
 
 
-Runs the test watcher ie: `npm install --save-dev @types/webpack-env`
+Runs the test watcher ie: `npm run test -- --watch`
 
 
 ### `npm test`
