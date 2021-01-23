@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+1. It was created using `npx create-react-app frontend --template typescript`
+1. Then the `wallaby.js` file was added for wallaby compatibility with typescript
+1. In vscode `ctrl+shift+p` and `wallaby select configuration` 
+
+# Hot Module Reloading (HMR) support
+
+Hot Module Reloading is enabled with `create-react-app` via `react-app-rewire`
+Any issues and it is probably worth a look at the issues/bugs in the [React-app-rewire repo](https://github.com/timarney/react-app-rewired)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,6 +22,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
+### `./test.sh`
+
+
+Runs the test watcher ie: `npm install --save-dev @types/webpack-env`
+
 
 ### `npm test`
 
